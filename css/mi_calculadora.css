@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url("https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149197763.jpg?w=740&t=st=1688772441~exp=1688773041~hmac=9485ac97974e115d606693f2b05fe9bb480b53630c8f3552717ed1738870544a");
+    display: grid;
+    place-items: center;
+}
+
+.calculadora {
+    background-color: #090909;
+    color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+}
+
+.pantalla {
+    grid-column: 1 / -1;
+    background-color: #080808;
+    padding: 1.5rem;
+    font-size: 3rem;
+    text-align: right;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+    
+}
+
+.btn {
+    background-color: #f3e77b;;
+    color: black;
+    border: 1px;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ed8c37;
+}
+
+#cero {
+    grid-column: span 2;
+}
+
+#igual {
+    grid-row: span 2;
+    background-color: #e6394a;
+}
+
+#igual:hover {
+    background-color: #e65766;
+}

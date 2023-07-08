@@ -1,0 +1,30 @@
+body {
+    background: url('https://img.freepik.com/foto-gratis/render-3d-fondo-tecnologia-red-lineas-puntos-conexion_1048-14613.jpg?t=st=1688759303~exp=1688759903~hmac=9ec71d4958987a684255c6dd6c35fe8e439c38fc9d25088765570e2e97b14200');
+    background-size: cover;
+
+}
+
+.main-frame-cal {
+    width: 50%;
+    padding: 50px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.759);
+    box-shadow: 0px 0px 20px 0px rgba(110, 110, 110, 0.775);
+    margin: 7% auto;
+}
+
+.main-frame-cal label {
+    font-weight: bold;
+}
+
+button {
+    float: right;
+}
+
+.home {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+}

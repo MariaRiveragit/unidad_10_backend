@@ -1,0 +1,25 @@
+body {
+    background:url('https://img.freepik.com/foto-gratis/fondo-abstracto-bloques-voronoi-extruidos-muro-corporativo-limpio-luz-minima-ilustracion-superficie-geometrica-3d-desplazamiento-elementos-poligonales_1217-2503.jpg?w=826&t=st=1688843269~exp=1688843869~hmac=ec06e2d2df80283cf5d05ab15b9ad82b94309a0a9a3b569e52585c3984f1f39c');
+    background-size: cover;
+}
+.main-frame-cal {
+    width: 50%;
+    padding: 50px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.759);
+    box-shadow: 0px 0px 20px 0px rgba(110, 110, 110, 0.775);
+    margin: 7% auto;
+}
+.main-frame-cal label {
+    font-weight: bold;
+}
+button {
+    float: right;
+}
+.home {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 50px;
+}

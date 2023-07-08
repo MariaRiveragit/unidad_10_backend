@@ -1,0 +1,26 @@
+body {
+    background: url("https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149159610.jpg?w=740&t=st=1688788265~exp=1688788865~hmac=60009266a846275988a2cae8c9a97ee43c15191333485fe679dae8137d9cccfe");
+    background-size: cover;
+}
+.main-frame-cal {
+    width: 50%;
+    padding: 50px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.759);
+    box-shadow: 0px 0px 20px 0px rgba(110, 110, 110, 0.775);
+    margin: 7% auto;
+}
+.main-frame-cal label {
+    font-weight: bold;
+}
+button {
+    float: right;
+}
+.home {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 5px;
+    height: 5px;
+}

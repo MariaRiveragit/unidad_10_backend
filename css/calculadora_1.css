@@ -1,0 +1,28 @@
+body{
+    background: url("https://img.freepik.com/foto-gratis/fondo-futurista-abstracto-diseno-3d_1361-3532.jpg?w=900&t=st=1688688683~exp=1688689283~hmac=34743562f3fd1299c6b8e35d12e4c39b27fe1f2f422402f1887dec6e801f7b3e");
+    background-size: cover;
+    
+
+}
+.main-frame-cal{
+    width: 50%;
+    padding: 50px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: rgba(217, 217, 217, 0.759);
+    box-shadow: 0px 0px 20px 0px rgba(110, 110, 110, 0.775);
+    margin: 7% auto;
+}
+.main-frame-cal label{
+    font-weight: bold;
+}
+button{
+    float: right;
+}
+.home{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 5px;
+    height: 5px;;
+}
